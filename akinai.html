@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akin Ai – Learn AI, CS & Tech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #00e676;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #00e676;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+    nav a:hover {
+      color: #fff;
+      transform: scale(1.1);
+    }
+    .section {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 2rem;
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 15px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    }
+    .section h2 {
+      color: #00e676;
+      margin-bottom: 1rem;
+    }
+    .section ul {
+      padding-left: 1.2rem;
+    }
+    form input, form button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 8px;
+    }
+    form input {
+      background: #2c5364;
+      color: white;
+    }
+    form button {
+      background: #00e676;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    form button:hover {
+      background: #00c853;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.2);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Akin Ai</h1>
+    <p>The Future of Learning AI, Technology & Computer Science</p>
+    <nav>
+      <a href="#courses">Courses</a>
+      <a href="#certificate">Certificate</a>
+      <a href="#donate">Donate</a>
+      <a href="https://www.facebook.com/profile.php?id=61577689923761" target="_blank">Facebook</a>
+    </nav>
+  </header>  <section class="section" id="donate">
+    <h2>Donate to Access Premium</h2>
+    <p>Send <strong>200 LRD</strong> to: <strong>+231 88 772 3268</strong></p>
+    <p>After payment, you will be verified and granted full access.</p>
+    <form id="verifyForm">
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="text" placeholder="Phone Number" required><br>
+      <input type="text" placeholder="Payment Reference" required><br>
+      <button type="submit">Submit for Verification</button>
+    </form>
+  </section>  <section class="section" id="courses">
+    <h2>Courses</h2>
+    <ul>
+      <li>Intro to Computer Science</li>
+      <li>Artificial Intelligence Fundamentals</li>
+      <li>Technology for the Future</li>
+    </ul>
+  </section>  <section class="section" id="certificate">
+    <h2>Certificates</h2>
+    <p>Complete a course and receive a digital certificate with your name and course title, issued by Akin Ai.</p>
+  </section>  <footer>
+    <p>&copy; 2025 Akin Ai. All rights reserved.</p>
+  </footer>  <script src="assets/js/app.js"></script>  <script>
+    document.getElementById("verifyForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Thank you! Your payment is being verified. You'll be contacted soon.");
+    });
+  </script></body>
+</html>
